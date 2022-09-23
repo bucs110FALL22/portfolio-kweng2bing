@@ -3,7 +3,7 @@ Welcome to CS 110. I look forward to working with you this semester. This is you
 ## Course Materials
 [http://sm-web.cs.binghamton.edu/](http://sm-web.cs.binghamton.edu/)
 ***OFF CAMPUS ONLY***: You must be connected to the BU VPN to access the course website [instructions]
-## Student Info - MUST BE COMPLETED
-Preferred Name: Kalvin Weng
-Discord username: kweng2#6219
-REPL url: https://replit.com/join/gyqtolddqy-kalvinweng1
+## Student Info - MUST BE COMPLETED  
+Preferred Name: Kalvin Weng  
+Discord username: kweng2#6219    
+REPL url: https://replit.com/join/gyqtolddqy-kalvinweng1  
