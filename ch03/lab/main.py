@@ -62,4 +62,4 @@ for i in num_sides:
   #reset screen
   window.fill('black')
   pygame.display.flip()
-  pygame.time.wait(1500)
+  pygame.time.wait(1000)
