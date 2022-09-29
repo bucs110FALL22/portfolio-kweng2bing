@@ -12,12 +12,23 @@ replace = {
   "disease": "anime",
   "pandemic": "fireworks"
 }
-newArticle = []
-for i in article.split( ):
-  newArticle.append(replace.get(i,i))
-  # print(i)
-  # print(newArticle)
-newArticle= ' '.join(newArticle)
-print(newArticle)
+# newArticle = []
+# for i in article.split( ):
+#   newArticle.append(replace.get(i,i))
+#   # print(i)
+#   # print(newArticle)
+# newArticle= ' '.join(newArticle)
+# print(newArticle)
 
 # https://www.nytimes.com/article/covid-booster-flu-shot-same-time.html
+
+
+# Another Way to Complete this 
+newarticle = ""
+for key, value in replace.items():
+  newarticle = article.replace(key, value)
+  print(key)
+  print(value)
+  print(newarticle)
+print(newarticle)
+
