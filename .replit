@@ -1,4 +1,5 @@
-run = "python3 ch03/lab/main.py"
+# run = "python3 ch03/lab/main.py"
+run = "python3 ch04/exercises/coinflip.py"
 
 language = "python3"
 hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
