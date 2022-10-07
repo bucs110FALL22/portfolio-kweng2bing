@@ -18,11 +18,11 @@ For each one below you should have a basic description of a program idea, a coup
 
 ## Project Idea 1
 
-< add your idea here >
+< A game where the usermust survivie the walk around Binghamton's nature perserve. The user will play a series of minigame and they must win to survive.>
 
 ## Project Idea 2
 
-< add your idea here >
+<- A system where the suer can input the food they ate and calculate an approximate amount of calories the user has inputted and if the user should change their eating habit based on the data. THis can be changed into a game. >
 
 ## Project Idea 3
 
