@@ -9,6 +9,7 @@ iters = {}
 maxSoFar = 0
 maxVal = 0
 scale = 10
+coords  = []
 for i in range(lowerLimit, upperLimit + 1):
   window.fill("black")
   n = i
@@ -27,12 +28,13 @@ for i in range(lowerLimit, upperLimit + 1):
   if len(coords) >= 2:
     pygame.draw.lines(window, 'yellow', False, coords)
     new_display = pygame.transform.flip(window, False, True)
-    window.blit( new_display , (0, 0) )
+    window.blit(new_display,(0,0))
     antialias= True
-    msg1= f"The max number of iterations for '{maxVal}' is '{maxSoFar}' "
+    msg1= f"The max number of iterations for '{i}' is '{maxSoFar}' "
     msg = font.render(msg1, antialias, 'yellow')
     messageLocation = (10,10)
     window.blit(msg, messageLocation)
     pygame.display.flip()
     pygame.time.wait(2000)
 print(iters)
+# print(coords)
