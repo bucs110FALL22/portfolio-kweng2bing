@@ -1,4 +1,3 @@
-    
 def percentage_to_letter(score=0):
     if score >= 90:
         return "A"
@@ -10,7 +9,7 @@ def percentage_to_letter(score=0):
         return "D"
     elif score >= 50:
         return "F"
-        
+
 def is_passing(letter=None):
     if letter == "A" or "B" or "C":
         return True
