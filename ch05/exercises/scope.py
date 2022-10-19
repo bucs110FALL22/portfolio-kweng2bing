@@ -16,13 +16,7 @@ def square(num1):
 def main():
   numberone = int(input("Number 1?"))
   numbertwo = int(input("Number 2?"))
-  result = multiply(numberone, numbertwo)
-  print(result)
-  print("===")
-  result = exponent(numberone, numbertwo)
-  print(result)
-  print("===")
-  result = square(numberone)
-  print(result)
-
+  result = (multiply(numberone, numbertwo), exponent(numberone, numbertwo), square(numberone))
+  print(f"Multiply:{result[0]}, Exponent:{result[1]}, Square of number 1: {result[2]}")
+ 
 main()
