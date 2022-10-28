@@ -1,4 +1,4 @@
-run = "python3 ch05/lab/main.py"
+run = "python3 ch06/midterm/midterm.py"
 # run = "python3 ch04/lab/main.py"
 
 language = "python3"
