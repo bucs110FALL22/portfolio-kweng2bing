@@ -1,7 +1,7 @@
 import turtle
 
 def tictactoeboard(displaysize):
-# A function that sets up the board
+# A function that sets up the board. The function takes in the dimension of the screen. No returns.
   draw = turtle.Turtle()
   draw.color('black')
   draw.penup()
@@ -25,7 +25,7 @@ def tictactoeboard(displaysize):
   draw.ht()
 
 def shape1(pos):
-# A function for drawing Player 1's shape == circle
+# A function for drawing Player 1's shape == circle. The function takes in the position to know where to start. No returns
   shape1 = turtle.Turtle()
   shape1.shape('turtle')
   shape1.penup()
@@ -39,7 +39,7 @@ def shape1(pos):
 
 # Player 2 shape drawing
 def shape2(pos):
-  # A function that draws Player 2's shape == star
+  # A function that draws Player 2's shape == star. The function takes in the position to know where to start. No returns
   shape2 = turtle.Turtle()
   shape2.penup()
   shape2.goto(pos)
@@ -53,7 +53,7 @@ def shape2(pos):
   shape2.end_fill()
   shape2.ht()
 def topos(input): 
-  # A function used to translate a1...c3 to coordinates.
+  # A function used to translate a1...c3 to coordinates. The function takes in the user input and returns the coordinates for that particular input.
   dict = [
   ["a1", (-100,60)],
   ["a2", (0, 60)],
@@ -69,7 +69,7 @@ def topos(input):
     if posarg[0] == input:
       return posarg[1]
 def game():
-# A function for the overall game
+# A function for the overall game. No parameters and does not return anything
   gameOver = False
   count = 0
   player1choice =[]
@@ -110,7 +110,7 @@ def game():
           break
         count += 1
 def win(playerset):
-  # A function to determine if a player has a winning set
+  # A function to determine if a player has a winning set. The function takes the boxes the player types and returns a boolean depending on if there is a winning set.
   winSet = [
     ['a1','a2','a3'],
     ['b1','b2','b3'],
