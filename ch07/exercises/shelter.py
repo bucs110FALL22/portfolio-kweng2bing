@@ -5,15 +5,18 @@ class Shelter:
         self.id = time.strftime("%Y%m%d%H%M%S")
         self.name = name
         self.type = type
-        self.arrived = time.strftime("%d/%m/%Y")
+        self.arrived = time.strftime("%Y/%m/%d")
         self.adopted = None
     def set_adopted(self):
-        self.adopted = time.strftime("%d/%m/%Y")
-    def __str__():
-        result_str = f"{self.type}"
-        result_str1 = f"{self.arrived}"
+        self.adopted = time.strftime("%Y/%m/%d")
+    def __str__(self):
+        result_str = f"{self.name}[{self.type}]"
+        result_str += f"\narrived: {self.arrived}"
+        result_str += f"\nadopted:{self.adopted}"
+        return result_str
         # result_str
 def main():
-    fido = Shelter("fido", "cat")
-    b = Shelter("Drake", "lizard")
+      fido = Shelter("Drake", "lizard")
+      fido.set_adopted()
+      print(fido)
 main()
