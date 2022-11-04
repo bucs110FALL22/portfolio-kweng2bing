@@ -1,5 +1,6 @@
 class Rectangle:
     def __init__(self, x, y, height, width):
+        # Changes all the values less than 0 to zero
         change= [x, y, height, width]
         for i in range(len(change)):
             j= change[i]
@@ -12,5 +13,6 @@ class Rectangle:
         print(change)
 
     def __str__(self):
+        # returns the rectangle with the new value as a string
         resultStr =f"(x:{self.x}, y:{self.y}, height:{self.height}, width:{self.width})"
         return resultStr
