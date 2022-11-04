@@ -13,9 +13,4 @@ class Rectangle:
 
     def __str__(self):
         resultStr =f"(x:{self.x}, y:{self.y}, height:{self.height}, width:{self.width})"
-        print(resultStr)
-        # resultStr = f"x-vlue: {self.x}"
-        # resultStr += f"y-vlue: {self.y}"
-        # resultStr += f"h-vlue: {self.h}"
-        # resultStr += f"w-vlue: {self.w}"
         return resultStr
