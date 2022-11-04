@@ -2,7 +2,7 @@ from Rectangle import Rectangle
 from Surface import Surface
 
 def main():
-
+# Main function that tests the code to see if the code is working for both Rectangle and Surface
     r = Rectangle(10, 10, 10, 10)
     assert((r.x, r.y, r.height, r.width) == (10,10,10,10))
     r = Rectangle(-1, 1, 1, 1)
