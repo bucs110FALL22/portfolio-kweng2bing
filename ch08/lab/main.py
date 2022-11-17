@@ -65,14 +65,14 @@ def main():
         assert(result == expected_results[i])
         i += 1
 
-    print("=========== Testing __str__ method (again) ===========")
-    expected_results = ["interesting", "aardvark", "aaa", "aeiouAEIOU", "a b c d e f g h i j k l m n o p q r s t u v w x y z", '']
-    i = 0
-    for s in su:
-        result = str(s)
-        print(f"{s}, got: {result}, expected: {expected_results[i]}")
-        assert(result == expected_results[i])
-        i += 1
+    # print("=========== Testing __str__ method (again) ===========")
+    # expected_results = ["interesting", "aardvark", "aaa", "aeiouAEIOU", "a b c d e f g h i j k l m n o p q r s t u v w x y z", '']
+    # i = 0
+    # for s in su:
+    #     result = str(s)
+    #     print(f"{s}, got: {result}, expected: {expected_results[i]}")
+    #     assert(result == expected_results[i])
+    #     i += 1
 
     print("=========== Tests Complete! ===========")
 
