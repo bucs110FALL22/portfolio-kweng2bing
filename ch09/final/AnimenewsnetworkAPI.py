@@ -13,7 +13,11 @@ class AnimenetworkAPI():
     # self.randomnum = str(random.randint(150,160))
   def getanimelistxml(self, id=155, nlist=80, nskip=1):
     '''
+<<<<<<< HEAD:ch09/final/AnimenewsnetworkAPI.py
     Uses api url and apikey to import data from the api and writes it in the file.
+=======
+    Uses api url and apikey to import data from the api and writes it in the file. Apikey is  fixed so hardcoded.
+>>>>>>> origin/main:ch10/final/animenewsnetwork.py
     args: id, nlist, nskip(just specific info for headers and api)
     return: None
     '''
