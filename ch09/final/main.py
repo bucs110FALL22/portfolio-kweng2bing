@@ -1,8 +1,5 @@
 from MangadexAPI import MangadexAPI
 from AnimenewsnetworkAPI import AnimenetworkAPI
-import requests
-import os
-# import mangadexapi
 
 def main():
     api_two = AnimenetworkAPI()

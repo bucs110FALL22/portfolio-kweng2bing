@@ -1,6 +1,6 @@
 import requests
 import xml.etree.ElementTree as ET
-import random
+
 class AnimenetworkAPI():
   def __init__(self):
     '''
@@ -9,15 +9,11 @@ class AnimenetworkAPI():
     return: None
     '''
     self.url =  "https://animenewsnetwork.p.rapidapi.com/reports.xml"
-    self.file_path = f"ch09/final/animenewsnetwork.xml"
-    # self.randomnum = str(random.randint(150,160))
+    self.file_path = "ch09/final/animenewsnetwork.xml"
+
   def getanimelistxml(self, id=155, nlist=80, nskip=1):
     '''
-<<<<<<< HEAD:ch09/final/AnimenewsnetworkAPI.py
-    Uses api url and apikey to import data from the api and writes it in the file.
-=======
-    Uses api url and apikey to import data from the api and writes it in the file. Apikey is  fixed so hardcoded.
->>>>>>> origin/main:ch10/final/animenewsnetwork.py
+    Uses api url and apikey to import data from the api and writes it in the file. 
     args: id, nlist, nskip(just specific info for headers and api)
     return: None
     '''
@@ -38,7 +34,6 @@ class AnimenetworkAPI():
     mytree = ET.parse(self.file_path)
     myroot = mytree.getroot()
     for x in myroot:
-      test = myroot.findall('item')
       if x.find('type').text == 'manga':
-        name  = x.find('name').text
+        name = x.find('name').text
         print(name)
