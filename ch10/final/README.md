@@ -6,13 +6,13 @@ One of the api generates a list of possible mangas to read. Thsi gives user some
 <p>I notice that that api_one doesn't work super well with popular mangas. You can try a few but there should be some that work. I know it doesn't work for: One Piece, Naruto, Bleach, Jujutsu Kaisen, Spy X Family.</p>
 If it doesn't work it will say something like
 "
-File "ch10/final/main.py", line 17, in <module>
-    main()
-  File "ch10/final/main.py", line 15, in main
-    api_one.mangachapterfile(manga_chapterid)
-  File "/home/runner/portfolio-kweng2bing/ch10/final/mangadexAPI.py", line 23, in mangachapterfile
-    host = rjson["baseUrl"]
-KeyError: 'baseUrl'
+File "ch10/final/main.py", line 17, in  module ><br />
+    main() <br />
+  File "ch10/final/main.py", line 15, in main <br />
+    api_one.mangachapterfile(manga_chapterid) <br />
+  File "/home/runner/portfolio-kweng2bing/ch10/final/mangadexAPI.py", line 23, in mangachapterfile<br />
+    host = rjson["baseUrl"]<br />
+KeyError: 'baseUrl'<br /> 
 "
 The best option is just to run it again and type something else. I don't have the time to make it so that it let's you type again.
   
@@ -30,3 +30,4 @@ https://api.mangadex.org/docs/guide/find-manga/
 ## MISCELLANEOUS COMMENTS *(anything else you would like the grader to know)*
 <p>Sorry about the fact that some of the manga doesn't work. I just don't have time to investigate why it doesn't work and fix it.</p>
 <p>I added a few extra words after get just to help distingusih which api is which. Hope that is fine.</p>
+
